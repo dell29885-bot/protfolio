@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Header</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="container">
+
+            <!-- Logo -->
+            <a href="#" class="logo">
+                <span>Graphic </span>Designer
+            </a>
+
+            <!-- Navigation -->
+            <nav class="navbar" id="navbar">
+
+                <a href="index.html" class="active">
+                    <i class="fa-solid fa-house"></i> Home
+                </a>
+
+                <a href="about.html">
+                    <i class="fa-solid fa-user"></i> About
+                </a>
+
+                <a href="service.html">
+                    <i class="fa-solid fa-briefcase"></i> Services
+                </a>
+
+                <a href="blog.html">
+                    <i class="fa-solid fa-blog"></i> Blog
+                </a>
+
+                <a href="contact.html">
+                    <i class="fa-solid fa-phone"></i> Contact
+                </a>
+
+            </nav>
+
+            <!-- Header Buttons -->
+            <div class="header-buttons">
+
+                <button id="themeBtn" class="icon-btn">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+                <button class="login-btn">
+                    Login
+                </button>
+
+                <!-- Hamburger -->
+                <button id="menuBtn" class="menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+<!-- LOGIN SECTION -->
+
+<section class="login-section">
+
+    <div class="login-container">
+
+        <!-- Left Content -->
+        <div class="login-content">
+
+            <span class="login-tag">WELCOME BACK</span>
+
+            <h2>Login to Your <span>Account</span></h2>
+
+            <p>
+                Login to continue your journey.
+                Access your account and keep learning,
+                creating and growing.
+            </p>
+
+            <div class="login-points">
+
+                <div>
+                    <i class="fa-solid fa-circle-check"></i>
+                    Easy and Secure Login
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-circle-check"></i>
+                    Access Your Account Anytime
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-circle-check"></i>
+                    Continue Your Learning Journey
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Login Form -->
+
+        <div class="login-form-box">
+
+            <div class="form-heading">
+
+                <div class="user-icon">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+
+                <h3>Welcome Back!</h3>
+
+                <p>Please enter your details</p>
+
+            </div>
+
+
+            <form id="loginForm">
+
+                <!-- Email -->
+
+                <div class="form-group">
+
+                    <label>Email Address</label>
+
+                    <div class="input-box">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Enter your email"
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <!-- Password -->
+
+                <div class="form-group">
+
+                    <label>Password</label>
+
+                    <div class="input-box">
+
+                        <i class="fa-solid fa-lock"></i>
+
+                        <input
+                            type="password"
+                            id="password"
+                            placeholder="Enter your password"
+                        >
+
+                        <i
+                            class="fa-solid fa-eye password-toggle"
+                            id="passwordToggle">
+                        </i>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Options -->
+
+                <div class="form-options">
+
+                    <label>
+                        <input type="checkbox">
+                        Remember me
+                    </label>
+
+                    <a href="#">Forgot Password?</a>
+
+                </div>
+
+
+                <!-- Button -->
+
+                <button type="submit" class="login-button">
+
+                    Login
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </button>
+
+
+                <!-- Message -->
+
+                <p id="loginMessage"></p>
+
+
+                <!-- Register -->
+
+                <div class="register-text">
+
+                    Don't have an account?
+
+                    <a href="#">Create Account</a>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
